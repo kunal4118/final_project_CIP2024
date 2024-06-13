@@ -1,0 +1,84 @@
+Username,Txn_Date,Txn_Amount,Txn_Category,MerchantName,Txn_Country
+kkk,2024-05-01,123.75,Groceries,Costco,USA
+kkk,2024-05-01,123.75,Groceries,TF Jones,USA
+kkk,2024-05-03,328.0,Utilities (Electricity/Water/Gas),DTE,USA
+kkk,2024-05-03,77.0,Insurance,Nationwide,USA
+kkk,2024-05-03,134.0,Utilities (Electricity/Water/Gas),Exelon,USA
+kkk,2024-05-03,118.0,Insurance,Nationwide,USA
+kkk,2024-05-03,134.0,Utilities (Electricity/Water/Gas),Exelon,USA
+kkk,2024-05-04,25.49,Memberships/ Subscriptions,Netflix,USA
+kkk,2024-05-04,65.9,Memberships/ Subscriptions,Netflix,USA
+kkk,2024-05-04,65.9,Memberships/ Subscriptions,Netflix,USA
+kkk,2024-05-04,1255.0,Housing,ReMax,USA
+kkk,2024-05-06,43.67,Fuel/ Petrol,Chevron,USA
+kkk,2024-05-06,17.5,Travel/ Transportation,MTS,USA
+kkk,2024-05-06,39.67,Fuel/ Petrol,Chevron,USA
+kkk,2024-05-06,7.5,Travel/ Transportation,MTS,USA
+kkk,2024-05-09,66.0,Personal/ Household,Cineplex,USA
+kkk,2024-05-09,66.0,Personal/ Household,Cineplex,USA
+kkk,2024-05-10,33.45,Personal/ Household,PF Chang's,USA
+kkk,2024-05-10,53.45,Personal/ Household,PF Chang's,USA
+kkk,2024-05-11,112.24,Groceries,Costco,USA
+kkk,2024-05-11,112.24,Groceries,Costco,USA
+kkk,2024-05-11,44.0,Fuel/ Petrol,Chevron,USA
+kkk,2024-05-11,24.35,Personal/ Household,Spa More,USA
+kkk,2024-05-11,44.35,Personal/ Household,Herb and Wood,USA
+kkk,2024-05-11,34.0,Fuel/ Petrol,Chevron,USA
+kkk,2024-05-16,689.75,Travel/ Transportation,Alaska Airlines,USA
+kkk,2024-05-17,89.0,Travel/ Transportation,WestJet,Canada
+kkk,2024-05-18,36.5,Personal/ Household,Amario's,USA
+kkk,2024-05-18,36.5,Personal/ Household,Amario's,Canada
+kkk,2024-05-19,65.0,Personal/ Household,Pacific Centre,USA
+kkk,2024-05-19,65.0,Personal/ Household,Pacific Centre,Canada
+kkk,2024-05-20,114.0,Travel/ Transportation,Avis,Canada
+kkk,2024-05-20,114.0,Travel/ Transportation,Avis,Mexico
+kkk,2024-05-21,35.0,Fuel/ Petrol,Chevron,USA
+kkk,2024-05-21,45.0,Fuel/ Petrol,Chevron,USA
+kkk,2024-05-22,167.98,Groceries,Costco,USA
+kkk,2024-05-22,167.98,Groceries,Costco,USA
+kkk,2024-05-23,59.0,Personal/ Household,Home Depot,USA
+kkk,2024-05-23,59.0,Personal/ Household,Home Depot,USA
+kkk,2024-05-26,345.0,Child Care,Kindercare,USA
+kkk,2024-05-26,800.0,Child Care,Nanny,USA
+kkk,2024-05-29,450.0,Health Care/ Medical,Cigna,USA
+kkk,2024-05-29,450.0,Health Care/ Medical,Cigna,USA
+kkk,2024-05-29,150.0,Health Care/ Medical,Cigna,USA
+kkk,2024-05-30,44.65,Fuel/ Petrol,Chevron,USA
+kkk,2024-05-30,519.45,Other Debt Payments,CreditCard Barclays,USA
+kkk,2024-05-30,378.55,Other Debt Payments,CreditCard Barclays,USA
+kkk,2024-05-30,34.65,Fuel/ Petrol,Chevron,USA
+kkk,2024-06-01,47.6,Personal/ Household,Embarcadero,USA
+zoey,2024-06-02,45.55,Groceries,Costco,USA
+kkk,2024-06-02,93.5,Groceries,Home Depot,USA
+sss,2024-06-02,78.0,Groceries,TF Jones,USA
+sss,2024-06-03,147.0,Utilities (Electricity/Water/Gas),Exelon,USA
+kkk,2024-06-03,1255.0,Housing,ReMax,USA
+zoey,2024-06-04,67.0,Insurance,Nationwide,USA
+sss,2024-06-04,82.0,Insurance,Nationwide,USA
+sss,2024-06-04,34.0,Personal/ Household,Phisher Express,USA
+sss,2024-06-05,18.5,Travel/ Transportation,MTS,USA
+sss,2024-06-05,47.67,Personal/ Household,Cineplex,USA
+kkk,2024-06-05,49.5,Fuel/ Petrol,Exxon,USA
+kkk,2024-06-05,234.45,Utilities (Electricity/Water/Gas),DTE,USA
+kkk,2024-06-06,145.8,Utilities (Electricity/Water/Gas),Exelon,USA
+sss,2024-06-06,39.45,Fuel/ Petrol,Exxon,USA
+sss,2024-06-07,67.89,Groceries,FreshFarms,USA
+kkk,2024-06-07,198.0,Health Care/ Medical,AllWell Medical,USA
+zoey,2024-06-08,34.5,Fuel/ Petrol,Chevron,USA
+kkk,2024-06-08,23.4,Travel/ Transportation,Uber,USA
+sss,2024-06-08,17.5,Travel/ Transportation,Uber,USA
+kkk,2024-06-08,105.0,Child Care,Kindercare,USA
+kkk,2024-06-08,52.62,Groceries,Farmers Mkt,USA
+sss,2024-06-08,400.0,Health Care/ Medical,TrueValue Health,USA
+kkk,2024-06-09,38.19,Personal/ Household,ProFit,USA
+kkk,2024-06-10,122.0,Personal/ Household,Crate Barrell,USA
+zoey,2024-06-10,79.0,Groceries,Costco,USA
+kkk,2024-06-11,38.97,Fuel/ Petrol,Exxon,USA
+kkk,2024-06-11,117.55,Housing,HOA,USA
+kkk,2024-06-12,98.9,Insurance,Insure First,USA
+kkk,2024-06-12,29.2,Personal/ Household,Naturals,USA
+kkk,2024-06-12,65.78,Groceries,Costco,USA
+kkk,2024-06-13,76.9,Health Care/ Medical,CVS,USA
+kkk,2024-06-13,259.0,Travel/ Transportation,Alaska Air,USA
+kkk,2024-06-13,23.98,Travel/ Transportation,Uber,USA
+kkk,2024-06-13,21.9,Memberships/ Subscriptions,Netflix,USA
