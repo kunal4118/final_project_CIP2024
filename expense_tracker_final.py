@@ -19,7 +19,7 @@ import os                       # to check for file size, empty or nom-empty, et
 import json                     # to read/write dictionary into text files and vice versa (User Profiles)
 import time                     # for time.sleep()
 from datetime import datetime   # to retrieve current date / time
-from datetime import timedelta  # to increment/decrement Date by py number of days
+from datetime import timedelta  # to increment/decrement Date by N number of days
 from tabulate import tabulate   # for tablular data display and formatting
 
 # define File path constants for easy access to reading/writing files in database
