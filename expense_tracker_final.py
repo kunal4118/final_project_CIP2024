@@ -1337,6 +1337,8 @@ def secure_password_input(prompt=""):
     param: prompt - str type - prompt message to show to user, default is a blank prompt.
     return: password string as input by the user
     """
+    # Credits for the below code: Stackoverflow user community
+    # --------------------------------------------------------
     pwd_str = ""
     proxy_string = [" "] * 20
     while True:
