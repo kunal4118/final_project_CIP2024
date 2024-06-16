@@ -16,6 +16,8 @@ This program works as a console-based Expense tracker application, allowing a Us
 import pandas as pd             # for DataFrames
 import re                       # to check for valid email expressions
 import os                       # to check for file size, empty or nom-empty, etc.
+import sys                      # used in password masking helper function
+import msvcrt                   # used getch() in password masking
 import json                     # to read/write dictionary into text files and vice versa (User Profiles)
 import time                     # for time.sleep()
 from datetime import datetime   # to retrieve current date / time
@@ -1329,6 +1331,30 @@ def valid_login(username, passwd):
                 logfile.write(f"{data}\n")
 
 
+def secure_password_input(prompt=""):
+    """
+    prompts user for a Password (against a given prompt) and Masks the user input with an asterisk, '*'
+    param: prompt - str type - prompt message to show to user, default is a blank prompt.
+    return: password string as input by the user
+    """
+    pwd_str = ""
+    proxy_string = [" "] * 20
+    while True:
+        sys.stdout.write('\x0D' + prompt + "".join(proxy_string))
+        c = msvcrt.getch()
+        if c == b'\r':
+            break
+        elif c == b'\x08':
+            pwd_str = pwd_str[:-1]
+            proxy_string[len(pwd_str)] = " "
+        else:
+            proxy_string[len(pwd_str)] = "*"
+            pwd_str += c.decode()
+
+    sys.stdout.write('\n')
+    return pwd_str
+
+
 def user_login():
     """
     Landing page of the app.
@@ -1362,7 +1388,8 @@ def user_login():
             print("Username cannot be blank. Please enter again\n")
             username = input("Enter username: ").strip()
 
-        passwd = input("Enter password: ").strip()
+        # passwd = input("Enter password: ").strip()
+        passwd = secure_password_input("Enter password: ")
 
         turn = 3
         # authenticate user login and allow 3 more attempts
@@ -1388,7 +1415,8 @@ def user_login():
                 print(f"You have {turn} more attempts.\n")
 
             username = input("Enter username: ").strip()
-            passwd = input("Enter password: ").strip()
+            # passwd = input("Enter password: ").strip()
+            passwd = secure_password_input("Enter password: ")
             turn -= 1  # Note: turn will equal 0 if user successfully authenticates on 3rd attempt.
 
         # while loop breaks when user login is authenticated or user exceeds max login attempts
